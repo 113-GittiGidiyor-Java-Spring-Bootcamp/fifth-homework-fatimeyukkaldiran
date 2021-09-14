@@ -1,6 +1,7 @@
 package patika.dev.schoolmanagementsystem.utils;
 
 public class ErrorMessageConstants {
+    public static final String STUDENT_NOT_FOUND = "Can not find student";
     public static String STUDENT_AGE_WRONG = "Student age cannot be less than 18 years old or older than 40 years old.";
     public static String INSTRUCTOR_PHONE_ALREADY_EXIST ="There cannot be 2 separate instructors with the same phone number in the system.";
     public static String COURSE_CODE_ALREADY_EXIST = "There cannot be 2 separate courses with the same course code in the system.";
